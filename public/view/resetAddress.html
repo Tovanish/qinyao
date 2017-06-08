@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>修改收货地址</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/resetAddress.css">
+</head>
+
+<body>
+
+<!--header begin-->
+<div class="header">
+	<div class="hd-navDiv">
+		<div class="logoDiv left">
+			<img src="../images/logo.png" alt="">
+		</div>
+		<ul class="hd-navContent left f16p">
+		   <a href="../../index.html">
+		   	    <li class="nav-list1">首页</li>
+		   </a>
+		   <a href="prdList.html">
+		   		<li class="nav-list2">产品中心</li>
+		   </a>
+		   <a href="shoppingCart.html">
+		   		<li class="nav-list3">订购产品</li>
+		   </a>
+		   <a href="scoreShop.html">
+		   		<li class="nav-list4">积分商城</li>
+		   </a>
+		   <a href="contactOur.html">
+		   		<li class="nav-list5">联系我们</li>
+		   </a>
+		   <a href="#">
+		   		<li class="nav-list6">关于我们</li>
+		   </a>		
+		</ul>
+	    <!--<div class="hd-right right">
+	    	<div class="loginDiv left f16p"><a href="login.html">登录</a></div>
+	    	<div class="regiestDiv left f16p"><a href="regiest.html">注册</a></div>
+	    </div>-->
+	</div>
+</div>
+<!--header end-->
+
+<div class="content">
+	
+	<div class="content-main">
+		<div class="ct-main-title">收获地址管理</div>
+		<div class="ct-addressBox">
+			<div class="ct-address-tittle">
+				<div class="ct-at-left">修改收货地址</div>
+				<div class="ct-at-right">(电话号码、手机号选填、其他必填项)</div>
+				<div class="clearfloat"></div>
+			</div>
+			<form action="">
+				<div class="ct-address-item">
+				   <div class="ct-ai-left">选择地区：</div>
+				    <div class="ct-ai-right">
+				    	<select  id="provinces" name="provinces" class="addressSel">
+							<option  value = "0" selected="selected">-选择省-</option>
+						    <option  value = "1">甘谷县</option>
+							<option  value = "2">甘肃省</option>
+							<option  value = "3">陕西省</option>
+						</select>
+			            <select  id="city" name="city" class="addressSel">
+							<option  value = "0" selected="selected">-选择市-</option>
+						</select>
+			            <select  id="area" name="area" class="addressSel">
+							<option  value = "0" selected="selected">-选择区-</option>
+						</select>
+				    </div>
+				    <div class="clearfloat"></div>
+				</div>
+				<div class="ct-address-item">
+				   <div class="ct-ai-left">详细地址：</div>
+				   <div class="ct-ai-right">
+				      <textarea name="detailAddr" class="dtAddr" placeholder="建议您如实填写详细信息，如街道名称、门牌号码、楼层、房间号等信息"></textarea>
+				   </div>
+				   <div class="clearfloat"></div>
+			    </div>
+			    <div class="ct-address-item">
+				   <div class="ct-ai-left">联系人：</div>
+				   <div class="ct-ai-right">
+		               <input class="ct-addript" name="name" type="text" placeholder="姓名">
+				   </div>
+				   <div class="clearfloat"></div>
+			    </div>
+			     <div class="ct-address-item">
+				   <div class="ct-ai-left">联系电话：</div>
+				   <div class="ct-ai-right">
+		               <input class="ct-addript" name="phone" type="text" placeholder="电话">
+				   </div>
+				   <div class="clearfloat"></div>
+			    </div>
+			    
+			    <input type="button" class="saveBtn" value="保存">
+			    
+			</form>
+		</div>
+		
+	</div>
+	
+	<div class="ct-frindsLinkDiv">
+		<div class="ct-frindsLink f12p">
+			<div class="ct-frindsLink-left f12p">
+				友情连接：
+			</div>
+			<ul class="ct-frindsLink-link">
+				<li><a href="#">秦瑶玉泉商城</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li class="linklist-last"><a href="#">秦瑶玉泉官网</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<!--footer start-->
+<div class="footer f13p">
+  <div class="ft-content">
+  	  <div class="companyName">版权所有©：陕西天一泉食品饮料有限公司 服务热线：400-0298-896（办） 技术支持：智科软件</div>
+  	  <div class="companyaddress">地址：陕西省安康市旬阳县小河镇西沟村</div>
+  	  <div>Copyright 2012 All Rights Rserved 版权所有：陕西天一泉食品饮料有限公司</div>
+  </div>
+	
+</div>
+<!--footer end-->
+</body>
+<script src="../js/resetAddress.js"></script>
+</html>

@@ -1,0 +1,233 @@
+/* CSS Document */
+
+/*header CSS*/
+.header {
+	width: 100%;
+	height: 79px;
+	background-color: #00808d;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+.hd-navDiv {
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logoDiv {
+	width: 220px;
+	height: 100%;
+}
+
+ul.hd-navContent {
+	width: 480px;
+	height: 100%;
+}
+
+ul.hd-navContent li{
+	width: 80px;
+	height: 100%;
+	line-height: 79px;
+	text-align: center;
+	float: left;
+	color: #fff;
+}
+
+ul.hd-navContent li:hover{
+	color:#00808d;
+	background-color: #fff;
+}
+
+
+.nav-list1 {
+	color: #00808d !important;
+	background-color: #fff !important;
+}
+
+
+.loginDiv {
+	margin-right: 10px;
+}
+
+.regiestDiv {
+	margin-right: 5px;
+}
+
+.loginDiv>a,.regiestDiv>a{
+	color:#fff;
+}
+
+.loginDiv>a:hover,.regiestDiv>a:hover{
+	color:#ff0000;
+}
+
+
+img{
+	width: 100%;
+	height: 100%;
+}
+/*header CSS end*/
+
+/*frinedLink CSS*/
+.ct-frindsLinkDiv {
+	width: 100%;
+}
+
+.ct-frindsLink {
+	width: 840px;
+	height: 36px;
+	margin: 0 auto;
+	line-height: 36px;
+	background-color: #f4f4f4;
+}
+
+.ct-frindsLink-left {
+	height: 100%;
+	padding:0 10px;
+	line-height: 36px;
+	text-align: center;
+	color: #333333;
+	float: left;
+}
+
+ul.ct-frindsLink-link {
+	height: 100%;
+	float: left;
+}
+
+ul.ct-frindsLink-link>li{
+	height: 100%;
+	line-height: 36px;
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+}
+
+ul.ct-frindsLink-link a{
+	color:#333333;
+}
+
+ul.ct-frindsLink-link a:hover{
+	color:#72d0eb;
+	text-decoration: none;
+}
+
+.linklist-last {
+	border: none !important;
+}
+/*frinedLink CSS end*/
+
+
+
+/*content main CSS*/
+.content-main {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.ct-regiestBox {
+	width: 700px;
+	height: 350px;
+	margin: 0 auto;
+	padding: 0 15px;
+	border: 1px solid #cccccc;
+	border-radius: 14px;
+}
+
+.ct-regiestBox-title {
+	width: 100%;
+	padding-top: 25px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #999999;
+	border-bottom: 1px solid #cccccc;
+}
+
+.ct-regiestBox-title a{
+	color: #2f80a7;
+}
+
+.ct-regiestBox-title a:hover{
+	text-decoration: none;
+}
+
+.ct-QRCodeDiv {
+	height: 235px;
+	width: 235px;
+	margin: 0 auto;
+	margin-top: 24px;
+	background-color: aqua;
+}
+
+/*content main end*/
+
+
+/*footer CSS*/
+.footer {
+	text-align: center;
+	color: #fff;
+	background-color: #037682;
+}
+
+.ft-content {
+	width: 1024px;
+	margin: 0 auto;
+	font-size: 13px;
+}
+
+
+
+
+
+.ft-conentLeft {
+	width: 840px;
+	height: 175px;
+}
+
+.ft-contentRight {
+	width: 184px;
+	height: 155px;
+   padding-top: 20px;
+}
+
+ul.ft-list{
+	float: left;
+	padding-right: 80px;
+	text-align: center;
+}
+
+ul.ft-list>a>li {
+	font-size: 14px;
+	line-height: 28px;
+	color: #fff;	
+}
+
+ul.ft-list>a:hover {
+	text-decoration: none;
+}
+
+ul.ft-list>a>li:hover {
+	color: #72d0eb;
+}
+
+ul.ft-list>li {
+	font-size: 18px;
+	line-height: 40px;
+	color: #fff;
+}
+
+.ft-QRCodeDiv {
+	height: 100px;
+	width: 100px;
+	margin-left: 8px;
+	background-color: aqua;
+}
+
+.ft-ImgTic {
+	font-size: 12px;
+	line-height: 24px;
+	color: #fff;
+	text-align: left;
+}

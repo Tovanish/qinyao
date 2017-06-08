@@ -1,0 +1,431 @@
+/* CSS Document */
+
+
+.header {
+	width: 100%;
+	height: 79px;
+	background-color: #00808d;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+.ct-bigImgDiv {
+	width: 100%;
+	height: 500px;
+	background-color: yellow;
+}
+
+.ct-brand {
+	width: 810px;
+	margin: 0 auto;
+	height: 220px;
+	padding: 40px 0;
+}
+
+.ct-Series1 {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 60px;
+	background-color: #037682;
+}
+
+.ct-Series2 {
+	width: 840px;
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-bottom: 55px;
+/*	background-color: red;*/
+}
+
+.ct-frindsLink {
+	width: 840px;
+	height: 18px;
+	margin: 0 auto;
+	padding:12px 0;
+	border-top: 1px solid #eaeaea;
+	line-height: 45px;
+/*	background-color: orange;*/
+}
+
+.footer {
+	padding: 30px 0;
+	text-align: center;
+	color: #72d0eb;
+	background-color: #037682;
+}
+
+.hd-navDiv {
+	width: 1024px;
+	height: 100%;
+/*	background-color: pink;*/
+	margin: 0 auto;
+}
+
+.logoDiv {
+	width: 220px;
+	height: 100%;
+/*	background-color: aquamarine;*/
+}
+
+ul.hd-navContent {
+	width: 480px;
+	height: 100%;
+/*	background-color: orange;*/
+}
+
+ul.hd-navContent li{
+	width: 80px;
+	height: 100%;
+/*	background-color: aqua;*/
+	line-height: 79px;
+	text-align: center;
+	float: left;
+	color: #fff;
+}
+
+ul.hd-navContent li:hover{
+	color:#00808d;
+	background-color: #fff;
+}
+
+
+.nav-list1 {
+	color: #00808d !important;
+	background-color: #fff !important;
+}
+
+
+.loginDiv {
+	margin-right: 10px;
+}
+
+.regiestDiv {
+	margin-right: 5px;
+}
+
+.loginDiv>a,.regiestDiv>a{
+	color:#fff;
+}
+
+.loginDiv>a:hover,.regiestDiv>a:hover{
+	color:#ff0000;
+}
+
+.ct-brand-content {
+	height: 100%;
+	width: 170px;
+/*	background-color: aquamarine;*/
+}
+
+.lineDiv {
+	height: 100%;
+	width: 120px;
+	margin: 0 15px;
+/*	background-color: aqua;*/
+}
+
+.ct-bc-top {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	border-radius: 50%;
+	position: relative;
+	border: 2px solid #037682;
+	text-align: center;
+}
+
+.ct-bc-top>img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.line {
+	width: 100%;
+	height: 61px;
+	border-bottom: 3px dashed #037682;
+}
+
+.ct-bc-bottom {
+	width: 100%;
+	padding-top: 25px;
+	line-height: 18px;
+	color:#333333;
+	text-align: center;
+}
+
+.ct-Series1-tittle {
+	width: 100%;
+	line-height: 96px;
+	color: #fff;
+	text-align: center;
+}
+
+
+ul.ct-Series1-display li:hover .ct-sd-top{
+	background-color: #012f34;
+}
+
+.ct-sd-top {
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-color: #fff;
+	position: relative;
+}
+
+.ct-sd-bottom {
+	width: 100%;
+}
+
+
+
+.ct-sdb-imgName {
+	line-height: 36px;
+}
+
+.ct-Series2-tittle {
+	width: 100%;
+	line-height: 96px;
+	color: #333333;
+	text-align: center;
+}
+
+ul.ct-Series2-display {
+	width: 100%;
+	color: #333333;
+}
+
+ul.ct-Series2-display li{
+	width: 260px;
+	height: 520px;
+	margin-right: 20px;
+	float: left;
+/*	background-color: orange;*/
+}
+
+ul.ct-Series2-display li:hover .ct-ser2Dialay-topImg{
+	display:block;
+}
+
+.ct-ser2Dialay-top {
+	width: 100%;
+	height: 13px;
+	padding-top: 2px;
+}
+
+.ct-ser2Dialay-topImg {
+	width: 126px;
+	height: 100%;
+	margin: 0 auto;
+/*	background-color: aquamarine;*/
+	display: none;
+	position: relative;
+	top: 1px;
+}
+
+.ct-ser2Dialay-title {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #037682;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #fff;
+}
+
+.ct-st-top {
+	line-height: 25px;
+}
+
+
+
+.ct-ser2Dialay-ImgDiv {
+	width: 100%;
+	height: 250px;
+/*	background-color: #0f0;*/
+}
+
+.ct-ser2Dialay-discrib {
+	width: calc(100% - 35px);
+	height: 150px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 20px;
+	color: #333333;
+	line-height: 19px;
+}
+
+.ct-ser2Dialay-bottom {
+	width: 100%;
+	height: 36px;
+	background-color: #037682;
+	color:#fff;
+	text-align: center;
+	line-height: 36px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.ct-frindsLink-left {
+	height: 100%;
+	padding:0 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #333333;
+	float: left;
+}
+
+ul.ct-frindsLink-link {
+	height: 100%;
+	float: left;
+}
+
+ul.ct-frindsLink-link>li{
+	height: 100%;
+	padding: 0 10px;
+	line-height: 18px;
+	border-right: 1px solid #6a6a6a;
+/*	background-color: aquamarine;*/
+	font-size: 12px;
+	float: left;
+}
+
+ul.ct-frindsLink-link a{
+	color:#333333;
+}
+
+ul.ct-frindsLink-link a:hover{
+	color:#72d0eb;
+	text-decoration: none;
+}
+
+.linklist-last {
+	border: none !important;
+}
+
+.ft-content {
+	width: 840px;
+	margin: 0 auto;
+}
+
+.companyName {
+	line-height: 32px;
+	padding: 0 5px;
+	float: left;
+	margin-right: 20px;
+}
+
+.companyaddress {
+	line-height: 32px;
+	padding: 0 5px;
+	float: right;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.ct-img01,.ct-img001 {
+	width: 62px;
+	height: 70px;
+	margin-top: -35px;
+	margin-left: -31px;
+}
+
+.ct-img02,.ct-img002 {
+	width: 62px;
+	height: 70px;
+	margin-top: -35px;
+	margin-left: -31px;
+}
+
+.ct-img03,.ct-img003 {
+	width: 54px;
+	height: 54px;
+	margin-top: -27px;
+	margin-left: -27px;
+}
+
+.ct-img001,.ct-img002,.ct-img003{
+	display: none;
+}
+
+.ct-bc-top:hover .ct-img01,.ct-bc-top:hover .ct-img02,.ct-bc-top:hover .ct-img03 {
+	display: none;
+}
+
+.ct-bc-top:hover .ct-img001,.ct-bc-top:hover .ct-img002,.ct-bc-top:hover .ct-img003 {
+	display: block;
+}
+
+
+
+.listImg-201 {
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -75px;
+}
+
+
+
+.swiper-container {
+	width: 1024px;
+	margin: 10 auto;
+	height: 280px;
+}
+
+.swiper-slide {
+	 display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+}
+
+.swiper-wrapper a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #fff;
+}
+
+
+
+/*people Info*/
+.hd-userDiv {
+	line-height: 30px;
+	color: #fff;
+	display: none;
+}
+
+.hd_useInfo {
+	padding-right: 10px;
+}
+
+.grzxDiv {
+	height: 28px;
+	width: 73px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: red;
+	text-align: center;
+}
+
+.grzxDiv:hover{
+	background-color: blue;
+}

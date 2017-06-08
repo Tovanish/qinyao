@@ -1,0 +1,264 @@
+/* CSS Document */
+
+/*header CSS*/
+.header {
+	width: 100%;
+	height: 79px;
+	background-color: #00808d;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+.hd-navDiv {
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.logoDiv {
+	width: 220px;
+	height: 100%;
+}
+
+ul.hd-navContent {
+	width: 480px;
+	height: 100%;
+}
+
+ul.hd-navContent li{
+	width: 80px;
+	height: 100%;
+	line-height: 79px;
+	text-align: center;
+	float: left;
+	color: #fff;
+}
+
+ul.hd-navContent li:hover{
+	color:#00808d;
+	background-color: #fff;
+}
+
+
+.nav-list1 {
+	color: #00808d !important;
+	background-color: #fff !important;
+}
+
+
+.loginDiv {
+	margin-right: 10px;
+}
+
+.regiestDiv {
+	margin-right: 5px;
+}
+
+.loginDiv>a,.regiestDiv>a{
+	color:#fff;
+}
+
+.loginDiv>a:hover,.regiestDiv>a:hover{
+	color:#ff0000;
+}
+
+
+img{
+	width: 100%;
+	height: 100%;
+}
+/*header CSS end*/
+
+/*frinedLink CSS*/
+.ct-frindsLinkDiv {
+	width: 100%;
+	padding-top: 40px;
+}
+
+.ct-frindsLink {
+	width: 840px;
+	height: 18px;
+	margin: 0 auto;
+	padding:12px 0;
+	border-top: 1px solid #eaeaea;
+	line-height: 45px;
+}
+
+.ct-frindsLink-left {
+	height: 100%;
+	padding:0 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #333333;
+	float: left;
+}
+
+ul.ct-frindsLink-link {
+	height: 100%;
+	float: left;
+}
+
+ul.ct-frindsLink-link>li{
+	height: 100%;
+	padding: 0 10px;
+	line-height: 18px;
+	border-right: 1px solid #6a6a6a;
+	font-size: 12px;
+	float: left;
+}
+
+ul.ct-frindsLink-link a{
+	color:#333333;
+}
+
+ul.ct-frindsLink-link a:hover{
+	color:#72d0eb;
+	text-decoration: none;
+}
+
+.linklist-last {
+	border: none !important;
+}
+/*frinedLink CSS end*/
+
+/*footer CSS*/
+.footer {
+	padding: 30px 0;
+	text-align: center;
+	color: #72d0eb;
+	background-color: #037682;
+}
+
+.ft-content {
+	width: 840px;
+	margin: 0 auto;
+}
+
+.companyName {
+	line-height: 32px;
+	padding: 0 5px;
+	float: left;
+	margin-right: 20px;
+}
+
+.companyaddress {
+	line-height: 32px;
+	padding: 0 5px;
+	float: right;
+}
+/*footer CSS end*/
+
+.ct-main {
+	width: 100%;
+	height: 600px;
+	padding-top: 150px;
+	background-image: url(../images/water-bg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.ct-main-loginDiv {
+	width: 700px;
+	margin: 0 auto;
+	background-color: rgba(204,204,204,0.3);
+	padding: 30px 15px 0 15px;
+}
+
+.ct-ml-top {
+	width: 100%;
+	height: 29px;
+	color: #999999;
+	line-height: 22px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.ct-ml-top a{
+	color: #00808d;
+}
+
+.ct-ml-top a:hover{
+	text-decoration: none;
+}
+
+.loginfromDiv {
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-bottom: 37px;
+}
+
+.itemDiv {
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.itemDiv h3{
+	font-size: 16px;
+	line-height: 26px;
+	float: left;
+	color: #333;
+	font-weight: normal;
+}
+
+.itemDiv input {
+    margin-left: 15px;
+	border: solid 1px #999;
+	border-radius: 5px;
+	width: 200px;
+	height: 26px;
+	display: block;
+	float: left;
+}
+
+.itemDiv span{
+	margin-top: 8px;
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+#checkCode {
+	width: 102px;
+}
+
+.CheckCodImg {
+	width: 80px;
+	height: 25px;
+	margin-left: 50px;
+	float: left;
+}
+
+.changeImg {
+	margin-left: 230px;
+	font-size: 14px;
+}
+
+.changeImg a{
+	color:#333333;
+}
+
+.buttonDiv {
+	padding-top: 60px;
+	height: 35px;
+	padding-left: 150px;
+	padding-bottom: 37px;
+}
+
+.subBtn {
+	width: 75px;
+	height: 100%;
+	background-color: #00808d;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+.regiseBtn {
+	width: 60px;
+	height: 100%;
+	border: none;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+}

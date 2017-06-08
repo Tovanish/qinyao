@@ -1,0 +1,144 @@
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre, 
+dl, dt, dd, ul, ol, li, th, td, div, span, img, 
+fieldset, lengend, button, input, select, textarea{
+	margin: 0;padding: 0; 
+} 
+
+/* color & background */ 
+html{color:#000; background:#FFF;} 
+
+/* font */ 
+body, button, input, select, textarea { /* for ie */ 
+font: 12px/18px Arial, Verdana, Microsoft YaHei; 
+} 
+
+/* fix center */ 
+html,body {height: 100%;margin: 0 auto; overflow-x: hidden;} 
+
+/* h1~h6 */ 
+h1 {font-size: 18px;} 
+h2 {font-size: 16px;} 
+h3 {font-size: 14px;} 
+h4, h5, h6 {font-size: 100%;} 
+
+/* a */ 
+a { text-decoration: none; } 
+a:hover { text-decoration: underline; } 
+
+/* list */ 
+ul,ol {list-style: none;} 
+
+/* img border */ 
+fieldset,img{border: 0;} 
+
+/* table */ 
+table {border-collapse: collapse;border-spacing: 0;font:inherit;} 
+
+/* margin */ 
+.alpha {margin-left: 0;} 
+.omega {margin-right: 0;} 
+
+/* float & clear */ 
+.left{float:left;} 
+.right{float:right;} 
+.clear {clear: both;display: block;} 
+
+/* clearfix */ 
+.clearfix:after{content:".";display:block;} 
+.clearfloat{clear: both;}
+.clearfix{display:inline-table;} 
+
+/* Hides from IE-mac */ 
+* html .clearfix{height:1%;} 
+.clearfix{display:block;} 
+/* End hide from IE-mac */ 
+*+html .clearfix{min-height:1%;}/* IE7 */ 
+
+
+.f10p{
+ font-size: 10px;	
+}
+
+.f12p{
+	font-size: 12px;
+}
+
+.f14p{
+	font-size: 14px;
+}
+
+.f18p{
+	font-size: 18px;
+}
+
+.f20p{
+	font-size: 20px;
+}
+
+.f22p{
+	font-size: 22px;
+}
+
+.f24p{
+	font-size: 24px;
+}
+
+
+
+.textAlignCenter{
+text-align: center;	
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+
+img{
+	border: none;
+}
+
+iframe{
+	display: block;
+	overflow: hidden;
+}
+
+.footer,.header,.content {
+	width: 100%;
+	min-width: 1024px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.f16p {
+	font-size:16px;
+}
+
+.hd-right {
+	padding-top: 10px;
+	position: relative;
+}
+
+
+
+.f28p {
+	font-size: 28px;
+}
+
+
+.f13p {
+	font-size: 13px;
+}
+
+.f15p {
+	font-size: 15px;
+}
+
+

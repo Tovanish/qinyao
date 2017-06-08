@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>购物车</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/shoppingCart.css">
+</head>
+
+<body>
+
+<!--header begin-->
+<div class="header">
+	<div class="hd-navDiv">
+		<div class="logoDiv left">
+			<img src="../images/logo.png" alt="">
+		</div>
+		<ul class="hd-navContent left f16p">
+		   <a href="../../index.html">
+		   	    <li class="nav-list1">首页</li>
+		   </a>
+		   <a href="prdList.html">
+		   		<li class="nav-list2">产品中心</li>
+		   </a>
+		   <a href="#">
+		   		<li class="nav-list3">订购产品</li>
+		   </a>
+		   <a href="scoreShop.html">
+		   		<li class="nav-list4">积分商城</li>
+		   </a>
+		   <a href="contactOur.html">
+		   		<li class="nav-list5">联系我们</li>
+		   </a>
+		   <a href="#">
+		   		<li class="nav-list6">关于我们</li>
+		   </a>		
+		</ul>
+	    <div class="hd-right right f16p">
+	    	<div class="hd-logDiv"> 
+	          <div class="loginDiv left "><a href="login.html">登录</a></div>
+	    	  <div class="regiestDiv left ">
+                 <a href="regiest.html">注册</a>
+	          </div>
+	          <div class="clearfloat"></div>
+	    	</div>
+	    	<div class="hd-userDiv">
+	    		<span class="hd_useInfo">欢迎你：<span id="username"></span></span>
+	    		<a href="personalCenter.html">
+	    			<div class="grzxDiv right">用户中心</div>
+	    		</a>
+	    	</div>
+	    </div>
+	</div>
+</div>
+<!--header end-->
+
+<div class="content">
+	
+	<div class="content-main">
+		<div class="ct-main-title">商品选择确认</div>
+		<div class="ct-addressBox">
+			<span class="ct-address-tittle left">已保存地址</span>
+			<a href="addAddress.html">
+				<div class="ct-addAddress right">新增收货地址</div>
+			</a>
+			<table class="adressTable">
+				<thead>
+					<tr>
+						<td class="t-select">选择</td>
+						<td class="t-name">收货人</td>
+						<td class="t-city">所在地区</td>
+						<td class="t-detailAdress">详细地址</td>
+						<td class="phoneNumber">联系方式</td>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+		</div>
+		<span class="ct-addressTic">您尚未设置收货信息</span>
+		<div class="ct-address-tittle">
+			选择商品
+		</div>
+		<table class="goodsTable">
+			<thead>
+				<tr>
+				    <td class="goosSelect">选择</td>
+					<td class="goosName">商品</td>
+					<td class="gooesNum">数量</td>
+					<td class="gooesUnitPrice">单价</td>
+					<td class="gooesSubtotal">小计</td>
+					<td class="gooesOpction">操作&gt;&gt;</td>
+				</tr>
+			</thead>
+			<tbody>
+<!--
+				<tr>
+					<td class="goosSelect">
+						<input type="checkbox" name="goosSelect">
+					</td>
+					<td class="goosName">
+						<img class="gooesImg" src="../images/series101.png" alt="">
+						<a href="#">
+							<div class="goosNameText">330ML瓶装水 /箱(24瓶)</div>
+						</a>
+					</td>
+					<td class="gooesNum">
+						<div class="gooesNum-btnDiv">
+						  <div class="addBtn">+</div>
+						  <input type="text" class="gosNumber" value="1">
+						  <div class="subBtn">-</div>
+						  <div class="unitText">箱(24瓶)</div>	
+						</div>
+					</td>
+					<td class="gooesUnitPrice"><span class="unitPrice">144.00</span> 元</td>
+					<td class="gooesSubtotal">小计：<span class="subtotal">144</span>.00元</td>
+					<td class="gooesOpction">
+						<div class="delBtn">删除</div>
+					</td>
+				</tr>
+-->
+			</tbody>
+		</table>
+		<div class="totalDiv">一共购买了
+			<i id="total-num">0</i>件商品,
+			总计：<span id="total-price">0</span>元，
+			运费：<span id="freight">0</span>元。
+		</div>
+		<div class="someDelDiv">
+		<input type="checkbox" id="AllSelect">&#x3000;全选
+		<div class="batchDelete">批量删除</div>
+		</div>
+		<div class="clearfloat"></div>
+		<div class="ct-address-tittle">
+			选择支付方式
+		</div>
+		<div class=""></div>
+		<form action=" ">
+			<ul class="ct-payBox">
+				<li>
+					<input class="payIpt" name="pay1" type="radio">
+				
+					<img src="../images/pay_1.png" alt="">
+				</li>
+				<li>
+					<input class="payIpt" name="pay1" type="radio">
+				
+					<img src="../images/pay_2.png" alt="">
+				</li>
+				<li>
+					<input class="payIpt" name="pay1" type="radio">
+				
+					<img src="../images/pay_3.png" alt="">
+				</li>
+				<div class="clearfloat"></div>
+			</ul>
+		    <input  class="btn-submit" type="submit" value="确认支付">
+		</form>
+		
+	</div>
+	
+	<div class="ct-frindsLinkDiv">
+		<div class="ct-frindsLink f12p">
+			<div class="ct-frindsLink-left f12p">
+				友情连接：
+			</div>
+			<ul class="ct-frindsLink-link">
+				<li><a href="#">秦瑶玉泉商城</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li><a href="#">秦瑶玉泉官网</a></li>
+				<li class="linklist-last"><a href="#">秦瑶玉泉官网</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<!--footer start-->
+<div class="footer f13p">
+  <div class="ft-content">
+  	  <div class="companyName">版权所有©：陕西天一泉食品饮料有限公司 服务热线：400-0298-896（办） 技术支持：智科软件</div>
+  	  <div class="companyaddress">地址：陕西省安康市旬阳县小河镇西沟村</div>
+  	  <div>Copyright 2012 All Rights Rserved 版权所有：陕西天一泉食品饮料有限公司</div>
+  </div>
+	
+</div>
+<!--footer end-->
+</body>
+<script src="../js/shoppingCart.js"></script>
+</html>

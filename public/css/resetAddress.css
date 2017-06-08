@@ -1,0 +1,275 @@
+/* CSS Document */
+
+/*header CSS*/
+.header {
+	width: 100%;
+	height: 79px;
+	background-color: #00808d;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+.hd-navDiv {
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.logoDiv {
+	width: 220px;
+	height: 100%;
+}
+
+ul.hd-navContent {
+	width: 480px;
+	height: 100%;
+}
+
+ul.hd-navContent li{
+	width: 80px;
+	height: 100%;
+	line-height: 79px;
+	text-align: center;
+	float: left;
+	color: #fff;
+}
+
+ul.hd-navContent li:hover{
+	color:#00808d;
+	background-color: #fff;
+}
+
+
+.nav-list3 {
+	color: #00808d !important;
+	background-color: #fff !important;
+}
+
+
+.loginDiv {
+	margin-right: 10px;
+}
+
+.regiestDiv {
+	margin-right: 5px;
+}
+
+.loginDiv>a,.regiestDiv>a{
+	color:#fff;
+}
+
+.loginDiv>a:hover,.regiestDiv>a:hover{
+	color:#ff0000;
+}
+
+
+img{
+	width: 100%;
+	height: 100%;
+	margin-left: 10px;
+}
+/*header CSS end*/
+
+/*frinedLink CSS*/
+.ct-frindsLinkDiv {
+	width: 100%;
+	padding-top: 40px;
+}
+
+.ct-frindsLink {
+	width: 840px;
+	height: 18px;
+	margin: 0 auto;
+	padding:12px 0;
+	border-top: 1px solid #eaeaea;
+	line-height: 45px;
+}
+
+.ct-frindsLink-left {
+	height: 100%;
+	padding:0 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #333333;
+	float: left;
+}
+
+ul.ct-frindsLink-link {
+	height: 100%;
+	float: left;
+}
+
+ul.ct-frindsLink-link>li{
+	height: 100%;
+	padding: 0 10px;
+	line-height: 18px;
+	border-right: 1px solid #6a6a6a;
+	font-size: 12px;
+	float: left;
+}
+
+ul.ct-frindsLink-link a{
+	color:#333333;
+}
+
+ul.ct-frindsLink-link a:hover{
+	color:#72d0eb;
+	text-decoration: none;
+}
+
+.linklist-last {
+	border: none !important;
+}
+/*frinedLink CSS end*/
+
+/*footer CSS*/
+.footer {
+	padding: 30px 0;
+	text-align: center;
+	color: #72d0eb;
+	background-color: #037682;
+}
+
+.ft-content {
+	width: 840px;
+	margin: 0 auto;
+}
+
+.companyName {
+	line-height: 32px;
+	padding: 0 5px;
+	float: left;
+	margin-right: 20px;
+}
+
+.companyaddress {
+	line-height: 32px;
+	padding: 0 5px;
+	float: right;
+}
+/*footer CSS end*/
+
+.content-main {
+	width: 1024px;
+	padding-top: 25px;
+	margin: 0 auto;
+}
+
+.ct-main-title {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #00808d;
+	border-bottom: 2px solid #00808d;
+}
+
+.ct-addressBox {
+	width: 100%;
+	font-size: 16px;
+}
+
+.ct-address-tittle {
+	line-height: 60px;
+	font-size: 16px;
+	color: #ff6600;
+}
+
+
+.adressTable {
+	width: 100%;
+	text-align: center;
+}
+
+.adressTable thead{
+	background-color: #f2f2f2;
+	line-height: 32px;
+}
+
+
+	
+.t-select {
+	width: 50px;
+}
+
+.t-name {
+	width: 200px;
+}
+
+.t-city {
+	width: 250px;
+}
+
+.t-detailAdress {
+	width: 300px;
+}
+
+.ct-addressTic {
+	line-height: 24px;
+	font-size: 16px;
+}
+.ct-at-left {
+	width: 120px;
+	float: left;
+}
+
+.ct-at-right {
+	color: #000;
+	float: left;
+}
+
+.ct-ai-left {
+	line-height: 22px;
+	width: 120px;
+	float: left;
+}
+
+.ct-ai-right {
+	float: left;
+}
+
+
+
+.ct-address-item {
+	padding-top: 10px;
+}
+
+.addressSel {
+	width: 150px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.addressSel option{
+	text-align: center;
+}
+
+
+
+.dtAddr {
+	width: 495px;
+	height: 85px;
+}
+
+.ct-addript {
+	height: 30px;
+	width: 280px;
+	line-height: 30px;
+	padding: 0 15px;
+}
+
+.saveBtn {
+	width: 60px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+	border: none;
+	background-color: #ff6600;
+	border-radius: 5px;
+	color: #fff;
+}
+
